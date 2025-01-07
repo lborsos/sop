@@ -1,0 +1,7 @@
+C:\LaciWork\Eger\SOP\Gyakorlas1\SOP1\SOP1\bin\Debug\SOP1.exe.config
+C:\LaciWork\Eger\SOP\Gyakorlas1\SOP1\SOP1\bin\Debug\SOP1.exe
+C:\LaciWork\Eger\SOP\Gyakorlas1\SOP1\SOP1\bin\Debug\SOP1.pdb
+C:\LaciWork\Eger\SOP\Gyakorlas1\SOP1\SOP1\obj\Debug\SOP1.csproj.AssemblyReference.cache
+C:\LaciWork\Eger\SOP\Gyakorlas1\SOP1\SOP1\obj\Debug\SOP1.csproj.CoreCompileInputs.cache
+C:\LaciWork\Eger\SOP\Gyakorlas1\SOP1\SOP1\obj\Debug\SOP1.exe
+C:\LaciWork\Eger\SOP\Gyakorlas1\SOP1\SOP1\obj\Debug\SOP1.pdb
