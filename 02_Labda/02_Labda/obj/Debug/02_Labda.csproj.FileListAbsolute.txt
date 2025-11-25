@@ -1,0 +1,7 @@
+C:\LaciWork\Eger\SOP\02_Labda\02_Labda\bin\Debug\02_Labda.exe.config
+C:\LaciWork\Eger\SOP\02_Labda\02_Labda\bin\Debug\02_Labda.exe
+C:\LaciWork\Eger\SOP\02_Labda\02_Labda\bin\Debug\02_Labda.pdb
+C:\LaciWork\Eger\SOP\02_Labda\02_Labda\obj\Debug\02_Labda.csproj.AssemblyReference.cache
+C:\LaciWork\Eger\SOP\02_Labda\02_Labda\obj\Debug\02_Labda.csproj.CoreCompileInputs.cache
+C:\LaciWork\Eger\SOP\02_Labda\02_Labda\obj\Debug\02_Labda.exe
+C:\LaciWork\Eger\SOP\02_Labda\02_Labda\obj\Debug\02_Labda.pdb
