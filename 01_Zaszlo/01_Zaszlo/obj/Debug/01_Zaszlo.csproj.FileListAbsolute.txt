@@ -1,0 +1,7 @@
+C:\LaciWork\Eger\SOP\01_Zaszlo\01_Zaszlo\bin\Debug\01_Zaszlo.exe.config
+C:\LaciWork\Eger\SOP\01_Zaszlo\01_Zaszlo\bin\Debug\01_Zaszlo.exe
+C:\LaciWork\Eger\SOP\01_Zaszlo\01_Zaszlo\bin\Debug\01_Zaszlo.pdb
+C:\LaciWork\Eger\SOP\01_Zaszlo\01_Zaszlo\obj\Debug\01_Zaszlo.csproj.AssemblyReference.cache
+C:\LaciWork\Eger\SOP\01_Zaszlo\01_Zaszlo\obj\Debug\01_Zaszlo.csproj.CoreCompileInputs.cache
+C:\LaciWork\Eger\SOP\01_Zaszlo\01_Zaszlo\obj\Debug\01_Zaszlo.exe
+C:\LaciWork\Eger\SOP\01_Zaszlo\01_Zaszlo\obj\Debug\01_Zaszlo.pdb
