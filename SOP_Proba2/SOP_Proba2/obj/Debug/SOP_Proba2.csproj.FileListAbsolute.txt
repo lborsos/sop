@@ -1,0 +1,7 @@
+C:\LaciWork\Eger\SOP\SOP_Proba2\SOP_Proba2\bin\Debug\SOP_Proba2.exe.config
+C:\LaciWork\Eger\SOP\SOP_Proba2\SOP_Proba2\bin\Debug\SOP_Proba2.exe
+C:\LaciWork\Eger\SOP\SOP_Proba2\SOP_Proba2\bin\Debug\SOP_Proba2.pdb
+C:\LaciWork\Eger\SOP\SOP_Proba2\SOP_Proba2\obj\Debug\SOP_Proba2.csproj.AssemblyReference.cache
+C:\LaciWork\Eger\SOP\SOP_Proba2\SOP_Proba2\obj\Debug\SOP_Proba2.csproj.CoreCompileInputs.cache
+C:\LaciWork\Eger\SOP\SOP_Proba2\SOP_Proba2\obj\Debug\SOP_Proba2.exe
+C:\LaciWork\Eger\SOP\SOP_Proba2\SOP_Proba2\obj\Debug\SOP_Proba2.pdb
