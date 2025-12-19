@@ -1,0 +1,50 @@
+# ==============================
+# Visual Studio / .NET
+# ==============================
+
+.vs/
+.vscode/
+
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Test results
+TestResults/
+
+# Coverage
+coverage/
+coverage.xml
+
+# Temporary files
+*.tmp
+*.bak
+
+# ==============================
+# Optional
+# ==============================
+
+# Visual Studio Code
+*.code-workspace

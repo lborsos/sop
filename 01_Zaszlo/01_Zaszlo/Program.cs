@@ -41,9 +41,10 @@ namespace _01_Zaszlo
             Console.ForegroundColor = szin;
             for (int i = 0; i < darab; i++)
             {
-                lock (typeof(Program)) // "typeoff(Program)" helyett lehetett volna "Console.Out"
-                {
-                    Console.ForegroundColor = szin;
+//                lock (typeof(Program)) // "typeoff(Program)" helyett lehetett volna "Console.Out"
+                lock (Console.Out) // "typeoff(Program)" helyett lehetett volna "Console.Out"
+                    {
+                        Console.ForegroundColor = szin;
                     Console.SetCursorPosition(rnd.Next(0, 80), rnd.Next(y1, y2 + 1));
                     Console.Write("*");
                 }
