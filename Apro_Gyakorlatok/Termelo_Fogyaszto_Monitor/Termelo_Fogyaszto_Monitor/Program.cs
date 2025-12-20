@@ -17,17 +17,12 @@ namespace Termelo_Fogyaszto_Monitor
         static void Producer() {
             for (int i = 0; i < 10; i++) { 
                 Monitor.Enter(puffer);
-                try
-                {
+                try {
                     puffer.Enqueue(i);
                     Monitor.Pulse(puffer);
-                } finally {
-                    Monitor.Exit(puffer);
-                }
+                } finally { Monitor.Exit(puffer); }
                 Monitor.Enter(ConsoleLocker);
-                try
-                {
-                    Console.WriteLine($"Termelt: {i}");
+                try { Console.WriteLine($"Termelt: {i}");
                 } finally { Monitor.Exit(ConsoleLocker); }
                 Thread.Sleep(500);
             }
@@ -35,46 +30,33 @@ namespace Termelo_Fogyaszto_Monitor
             try { 
                 finished = true;
                 Monitor.PulseAll(puffer);
-            }
-            finally { Monitor.Exit(puffer); }
+            } finally { Monitor.Exit(puffer); }
         }
         static void Consumer() {
             while (true) {
                 int item;
                 Monitor.Enter(puffer);
-                try
-                {
+                try {
                     while (puffer.Count == 0 && !finished)
-                    {
-                        Monitor.Wait(puffer);
-                    }
+                    { Monitor.Wait(puffer); }
                     if (puffer.Count == 0 && finished) break;
                     item = puffer.Dequeue();
                 } finally { Monitor.Exit(puffer); }
                 Monitor.Enter(ConsoleLocker);
-                try
-                {
-                    Console.WriteLine($"Fogyasztott: {item}");
-                }
-                finally { Monitor.Exit(ConsoleLocker); }
+                try { Console.WriteLine($"Fogyasztott: {item}");
+                } finally { Monitor.Exit(ConsoleLocker); }
             }
-            Monitor.Enter(ConsoleLocker);
-            try { Console.WriteLine("Fogyaszto vege!"); }
-            finally { Monitor.Exit(ConsoleLocker); }
+            Console.WriteLine("Fogyaszto vege!");
         }
         static void Main(string[] args)
         {
             Thread producer = new Thread(Producer);
             Thread consumer = new Thread(Consumer);
 
-            producer.Start();
-            consumer.Start(); 
+            producer.Start(); consumer.Start(); 
+            producer.Join(); consumer.Join();
 
-            producer.Join();
-            consumer.Join();
-
-            Console.WriteLine("Vege!");
-            Console.ReadKey();
+            Console.WriteLine("Vege!"); Console.ReadKey();
         }
     }
 }
