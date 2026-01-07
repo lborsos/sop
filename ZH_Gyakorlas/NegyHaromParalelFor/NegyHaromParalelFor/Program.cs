@@ -160,7 +160,7 @@ namespace NegyHaromParalelFor
             Console.WriteLine();
 
             Console.WriteLine("Idok (ms):");
-            Console.WriteLine("ThreadPool   " + t1);
+            Console.WriteLine("ThreadPool   " + t1);`
             Console.WriteLine("Task         " + t2);
             Console.WriteLine("Parallel.For " + t3);
         }

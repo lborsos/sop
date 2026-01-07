@@ -1,0 +1,4 @@
+admin;admin123
+alice;1234
+bob;pass
+charlie;qwerty

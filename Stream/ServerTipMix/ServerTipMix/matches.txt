@@ -1,0 +1,4 @@
+001;Brighton;Arsenal;0;0;0
+002;RealMadrid;Barcelona;0;0;0
+003;Bayern;Dortmund;0;0;0
+004;Juventus;Inter;0;0;0
