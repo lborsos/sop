@@ -15,6 +15,12 @@ namespace ServerLogin
     {
         public string Username;
         public string Password;
+
+        public User(string username, string password)
+        {
+            Username = username;
+            Password = password;
+        }
     }
     class ClientComm
     {
@@ -124,9 +130,7 @@ namespace ServerLogin
             foreach (string line in lines) { 
                 if (string.IsNullOrWhiteSpace(line)) continue;
                 string[] p = line.Split(';');
-                User u = new User();
-                u.Username = p[0];
-                u.Password = p[1];
+                User u = new User(p[0], p[1]);
                 users.Add(u);
             }
             return users;
